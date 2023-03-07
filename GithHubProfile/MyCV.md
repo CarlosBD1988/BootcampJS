@@ -58,7 +58,7 @@
 ```
 {
   "Id": 🕶 2,
-  "Nombre": "actualizar",
+  "Nombre": "Listar",
   "Comandos": "sudo apt update && sudo apt dist-upgrade -y"
 }
 ```
