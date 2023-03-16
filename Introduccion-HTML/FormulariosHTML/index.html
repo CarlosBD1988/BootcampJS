@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!--Fomrularios HTML-->
+
+<main class="page">
+<h1>Formulario de contacto:</h1>
+<form action="/server" method="get">
+    <div class="form-group">
+        <label form="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo" required>
+    </div>
+
+    <div class="form-group">
+        <label form="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo" required>
+    </div>
+
+    <div class="form-group">
+        <fieldset>
+            <legend>Presupuesto</legend>
+            <input type="radio" name="budget" id="10000" for="10000" value="10000"><label for="10000">$10000</label>
+            <input type="radio" name="budget" id="5000" for="5000" value="5000"><label for="5000">$5000</label>
+            <input type="radio" name="budget" id="2500" for="2500" value="2500"><label for="2500">$2500</label>
+        </fieldset>
+        <div class="help">Este presupuesto es la base y no el total</div>
+    </div>
+
+    <div class="form-group">
+        <label for="type">Tipo de proyecto</label>
+        <select id="type" name ="type" required>
+            <option disabled selected value="">Seleccione uno</option>
+            <option value="Website">Website</option>
+            <option value="WebApp">WebApp</option>
+            <option value="Mobileapp">Mobile app</option>
+            <option value="Disegn">Disegn</option>
+
+        </select>
+    </div>  
+
+    <div class="form-group">
+        <label for="description">Descripcion</label>        
+        <textarea id="description" name="description" rows="5"></textarea>
+        <div class="help">Realiza un Descripcion del proyecto en 500 palabras</div>
+        
+
+    </div>
+
+    <div class="form-group">
+        <label for="termns">   
+            <input type="checkbox" id="termns" name="termns" required>
+            <span >Acepto los terminos y condiciones</span>
+        </label>     
+
+    </div>
+
+        <button>Enviar</button>
+   
+</form>
+
+
+
+
+
+
+</main>
+
+
+
+</body>
+</html>
