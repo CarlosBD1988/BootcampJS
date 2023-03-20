@@ -5,74 +5,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi pagina Web</title>
+    <title>Mi hoja de vida</title>
     <link rel="stylesheet" href="style/main.css">
 
 </head>
 <body>
    
     <header>
-
         <img src="img/logo.jpg" alt="Logo_carlos">
         <h1>¡Hola!, <h1>
-        <a href="about.html">Soy Carlos Andrés Bohórquez Durán.</a></h1>
-        
+        <a href="about.html">Soy Carlos Andrés Bohórquez Durán.</a></h1>        
     </header>
-    <nav>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
+    <nav class="navbar">
+        <ul class="navbar-item">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#aboutme">Academic information</a></li>
+            <li><a href="#experence">Work experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="contactame.html">Contact me</a></li>
         </ul>
     </nav>
     <!-- Esto es un comentario-->
-    
-    <h2>👨‍🎓 Ingeniero de sistemas.</h2>
-    <h3>🏫 Universidad de Investigación y Desarrollo UDI</h3>
-    <h3>🏙 Bucaramanga - Colombia</h3>
-    <h3>📅 2003</h3>
-
-    <p>✍🏼 Actualmemte me desempeño como desarrollador junior .Net.</p>
-
-    <h2> 🎓Otros Titulos</h2>
-    <ul>
-        <li>Tecnologo en diseño y administracion de sistemas.</li>
-    </ul>
-
-    <h2>Habilidades</h2>
-    <ol>
-        <li>Soporte técnico nivel usuario.</li>
-        <li>Gestión y administración de infraestructura física.</li>
-        <li>Administración de sistemas de información en salud.</li>
-        <li>Diseño e implementación de soluciones con tecnología RPA.</li>
-        <li>Desarrollo de sistemas con .Net C#.</li>
-    </ol>
-
-    <h2>📖 🤓 Skills </h2>
-    <ul>
-        <li>RPA</li>
-        <li>JavaScript(in learning)</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>SQL</li>
-        <li>C#</li>
-        <li>Git /GitHub</li>
-    </ul>
-
-        <footer class="footer">            
-            <h2>📬 Contáctame</h2>
+    <main>
+        <section class="aboutme">
+            <a name="aboutme"></a>
+            <h2>👨‍🎓 Ingeniero de sistemas</h2>
+            <article>
+                <p>Graduado de la Universidad de Investigación y Desarrollo <strong>UDI</strong>, Universidad de la ciudad de Bucaramanga(Colombia), ejerciendo desde el 2003</h3>        
+                <p>Ultimos 5 años dedicado a la automatizacion robotica de procesos con tecnologia RPA, con la plataforma Agility Studio, diseñando e implementando soluciones, integrando IA, OCR,  Desarollo web(html/css, JS).</p>
+                <p>✍🏼 Actualmemte me desempeño como <strong>desarrollador junior .Net.</strong> </p>
+            </article> 
             
+        </section>
+        
+      <section class="academic">
+        <h2> 🎓Otros Titulos</h2>
+        <article>
+            <ul>
+                <li>Tecnologo en diseño y administracion de sistemas.</li>
+            </ul>
+        </article>
+        <h2> Cursos</h2>
+        <article>
+            <ul>
+                <li>Platzi</li>
+                <li>Udemy</li>
+            </ul>
+        </article>
+       
+      </section>
+        
+      <section class="Skills">
+        <a name="skills"></a>
+        <h2>📖 🤓 Skills </h2>
+        <article>            
+            <ul>
+                <li>Robotic Process Automation - RPA</li>
+                <li>.Net con C#</li>
+                <li>Visual Studio</li>
+                <li>JavaScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>Git /GitHub</li>
+            </ul>
+        </article>        
+      </section>
+
+      <section class="experence">
+        <h1>Experiencia laboral.</h1>
+        <a name="experence"></a>
+            <article>
+                <h2>Habilidades adquiridas</h2>
+                <ul>
+                   <li>Soporte técnico nivel usuario.</li>
+                   <li>Gestión y administración de infraestructura física.</li>
+                   <li>Administración de sistemas de información en salud.</li>
+                   <li>Diseño e implementación de soluciones con tecnología RPA.</li>
+                   <li>Desarrollo de sistemas con .Net C#.</li>
+               </ul>
+           </article>      
+       
+            <article>
+                <h2>Experiencia laboral:</h2>
+                <ul>
+                    <li>Enterdev S.A.S.</li>
+                    <li>Projection Life Colombia S.A.</li>
+                    <li>Ingenieria y suministros de colombia -Insurcol Ltda.</li>
+                </ul>
+
+            </article>
+     
+            
+      </section>
+                   
+    </main>
+
+    
+        <footer class="footer">
+            <div class="footer_title">
+                <h2>📬 Contáctame</h2>
+            </div>        
+                        
             <div class="footer_redes">
-            <a href="https://twitter.com/jsbc2017" target="_blank"><img class="icon_redes" src="icon/twiter.png"
-                    alt="Twitter"></a>
-            <a href="https://www.linkedin.com/in/carlos-andres-bohorquez-duran-38675a174/" target="_blank"><img
-                    class="icon_redes" src="icon/linkedin.png" alt="Linkedin"></a>
-            <a href="https://github.com/CarlosBD1988" target="_blank"><img class="icon_redes"
-                    src="icon/signo-de-github.png" alt="GitHub"></a>
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/jsbc2017" target="_blank">
+                        <img class="icon_redes" src="icon/twiter.png" alt="Twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/carlos-andres-bohorquez-duran-38675a174/" target="_blank">
+                            <img class="icon_redes" src="icon/linkedin.png" alt="Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/CarlosBD1988" target="_blank">
+                            <img class="icon_redes" src="icon/signo-de-github.png" alt="GitHub">
+                        </a>
+                    </li>
+                </ul>          
+                     
             </div>       
-                                            
-            <a href="https://www.flaticon.es/iconos-gratis/logotipo-de-twitter" title="logotipo de twitter iconos"
-                target="_blank">Iconos twitter,GitHub y linkedin creados por Md Tanvirul Haque - Flaticon</a>
+            <div>
+                <a href="https://www.flaticon.es/iconos-gratis/logotipo-de-twitter" title="logotipo de twitter iconos"
+                target="_blank">Iconos twitter,GitHub y linkedin creados por Md Tanvirul Haque - Flaticon
+            </a>
+            </div>                        
+            
     
     
         </footer>

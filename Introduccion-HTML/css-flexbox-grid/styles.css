@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background: whitesmoke;
+    height: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content:space-between;
+
+    border: 2px dashed rebeccapurple;
+    height: 100%;
+   
+
+}
+
+.item{
+    border:  3px solid coral;
+    height: 50px;
+    width: 200px;
+    background:papayawhip;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}

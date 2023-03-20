@@ -1,0 +1,43 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background: whitesmoke;
+    height: 100%;
+    margin: 0;
+}
+
+.grid-container{
+    height: 100%;
+    border: 4px dashed teal;
+    display: grid;
+
+    grid-template-columns: [line1]40px [line2]50px [line3]auto [line4]50px [lineEnd]40px;
+    grid-template-rows: [row1]25px [row2]100px [lastrow]auto;
+
+
+}
+.grid-item{
+    border:  3px solid coral;
+    height: auto;
+    width: auto;
+    background:papayawhip;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    ;
+
+}
+
+.item-a{
+    background-color: gold;
+    grid-column: line3 / lineEnd;
+    grid-row: row1/row2;
+
+}
