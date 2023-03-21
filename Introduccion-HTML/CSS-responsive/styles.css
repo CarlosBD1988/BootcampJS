@@ -1,0 +1,64 @@
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+  }
+  
+  *{
+    box-sizing: inherit;
+  }
+  body{
+   font-size: 16px;
+   background: peru;
+   color: white;
+   font-size: 32px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-top: 200px;
+    margin-top: 200px;
+    border: 10px dashed tomato;
+    position: relative;
+  }
+
+  div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid rebeccapurple;
+    background-color: papayawhip;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .static{
+    position: static;
+  }
+
+  .relative{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    
+  }
+  .absolute{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .fixed{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+  }
+  .sticky{
+    position: sticky;
+    top: 20px;
+  }
