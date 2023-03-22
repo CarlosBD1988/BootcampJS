@@ -1,0 +1,18 @@
+{
+  "name": "carlosbd88-1673",
+  "version": "1.0.0",
+  "description": "👨‍🎓 **Ingeniero de sistemas.**  \r 🏫 _Universidad de Investigación y Desarrollo UDI_\r 🏙 _Bucaramanga - Colombia_\r 📅 **2003**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"vite",
+    "build":"vite build",
+    "preview":"vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.2.1"
+  }
+}
